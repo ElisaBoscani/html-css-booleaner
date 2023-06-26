@@ -56,11 +56,16 @@ ul {
 }
 
 /* /style content */
-
+table {
+  padding: 10px;
+}
 td {
   width: 400px;
 }
-th {
+thead {
   text-align: left;
   background-color: aqua;
+}
+.color {
+  background-color: rgb(206, 206, 252);
 }
