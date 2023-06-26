@@ -16,3 +16,21 @@ nav > img {
   padding-top: 60px;
   padding-left: 10px;
 }
+/* style logo */
+
+h1 {
+  font-size: 60px;
+}
+
+.author {
+  color: rgb(139, 136, 136);
+  font-size: 30px;
+}
+.data {
+  color: rgb(139, 136, 136);
+  font-size: 20px;
+}
+span {
+  color: rgb(102, 184, 255);
+}
+/* /style titol */
