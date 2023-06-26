@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header,
+main,
+footer {
+  width: 65%;
+  margin: auto;
+}
+nav {
+  background-image: url(../img/pattern.png);
+  background-color: rgb(106, 163, 254);
+  height: 137px;
+  background-size: 530px;
+}
+
+nav > img {
+  width: 240px;
+  padding-top: 60px;
+  padding-left: 10px;
+}
+/* style logo */
+
+h1 {
+  font-size: 60px;
+}
+
+.author {
+  color: rgb(139, 136, 136);
+  font-size: 30px;
+}
+.data {
+  color: rgb(139, 136, 136);
+  font-size: 20px;
+}
+span {
+  color: rgb(102, 184, 255);
+}
+/* /style titol */
+
+div > p {
+  font-size: 15px;
+}
+.image {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5px;
+}
+.tim {
+  width: 50%;
+}
+/* /header photo */
+
+main > section {
+  margin-top: 20px;
+  font-weight: 600;
+}
+ul {
+  padding-left: 17px;
+  margin-top: 20px;
+  font-weight: 600;
+}
+.highlighted {
+  background-color: yellow;
+  color: black;
+}
+/* /style content */
+table {
+  border-spacing: 0;
+}
+td {
+  width: 430px;
+}
+thead {
+  border: none;
+  text-align: left;
+  background-color: aqua;
+}
+.color {
+  background-color: rgb(206, 206, 252);
+}
+
+/* /style table */
+
+.last-content {
+  margin-top: 20px;
+}
+/* /style last-content */
+
+footer > p {
+  color: rgb(139, 136, 136);
+  font-weight: 600;
+  margin-top: 30px;
+}
+.img1 {
+  background-image: url(../img/monitor.jpg);
+  width: 265px;
+  height: 208px;
+  color: white;
+  padding: 10px;
+  font-size: 22px;
+  font-weight: 600;
+}
+.img2 {
+  background-image: url(../img/graph.jpg);
+  width: 265px;
+  height: 208px;
+  color: white;
+  padding: 10px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 10px;
+}
