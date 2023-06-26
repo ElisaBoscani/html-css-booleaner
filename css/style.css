@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-image: url(../img/pattern.png);
+  background-color: rgb(106, 163, 254);
+  height: 137px;
+  background-size: 530px;
+}
+
+nav > img {
+  width: 240px;
+  padding-top: 60px;
+  padding-left: 10px;
+}
