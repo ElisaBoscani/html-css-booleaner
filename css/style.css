@@ -3,7 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+header,
+main,
+footer {
+  width: 98%;
+  margin: auto;
+}
 nav {
   background-image: url(../img/pattern.png);
   background-color: rgb(106, 163, 254);
@@ -39,3 +44,23 @@ div > p {
   font-size: 15px;
 }
 /* /header photo */
+
+main > section {
+  margin-top: 20px;
+  font-weight: 600;
+}
+ul {
+  padding-left: 17px;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+/* /style content */
+
+td {
+  width: 400px;
+}
+th {
+  text-align: left;
+  background-color: aqua;
+}
